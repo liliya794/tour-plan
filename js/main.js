@@ -18,3 +18,10 @@ var mySwiper = new Swiper(".swiper-container", {
     delay: 3000,
   },
 });
+
+$('.parallax-window').parallax({
+  imageSrc: '../img/newsletter.jpg',
+  speed: 0.6
+});
+
+
