@@ -40,7 +40,7 @@ var reviewsSlider = new Swiper(".reviews-slider", {
 });
 
 $('.parallax-window').parallax({
-  imageSrc: '../img/newsletter.jpg',
+  imageSrc: './img/newsletter.jpg',
   speed: 0.6
 });
 
