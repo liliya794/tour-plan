@@ -576,6 +576,10 @@ template {
           justify-content: space-between;
 }
 
+.hotel__slider {
+  margin: 0;
+}
+
 .hotel-slider {
   width: 728px;
   height: 450px;
