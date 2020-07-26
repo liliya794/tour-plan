@@ -799,6 +799,260 @@ template {
   overflow: hidden;
 }
 
+.packages {
+  padding: 40px 0 70px 0;
+}
+
+.packages__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 65px;
+}
+
+.packages-cards__row-1 {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  margin-bottom: 30px;
+}
+
+.packages-cards__row-2 {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.big-card {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (366px)[2];
+      grid-template-columns: repeat(2, 366px);
+}
+
+.big-card__image-block {
+  width: 366px;
+  height: 500px;
+}
+
+.big-card__image {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+}
+
+.big-card__label {
+  position: absolute;
+  left: 0;
+  top: 26px;
+  z-index: 3;
+  background-color: #EC1F46;
+  border-radius: 0px 4px 4px 0px;
+  padding: 8px 12px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.big-card__info-block {
+  width: 366px;
+  height: 500px;
+  color: #ffffff;
+  padding: 46px 21px 30px 46px;
+  background-color: #0A223D;
+  color: #ffffff;
+  border-radius: 0 8px 8px 0;
+}
+
+.big-card__title {
+  margin: 5px 0 27px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.big-card__text {
+  margin: 0 0 34px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160.6%;
+}
+
+.package-room__text {
+  margin-bottom: 11px;
+}
+
+.package-room__icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 14px;
+}
+
+.package-room__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.package-room__old-big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1px;
+  margin-top: 37px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: line-through;
+}
+
+.package-room__revalent-big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.package-room__new-big {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.package-room__button-big {
+  padding: 11px 27px;
+  background-color: #EC1F46;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.little-card {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr max-content;
+      grid-template-rows: 1fr -webkit-max-content;
+      grid-template-rows: 1fr max-content;
+}
+
+.little-card__image-block {
+  width: 350px;
+  min-height: 250px;
+}
+
+.little-card__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.little-card__label {
+  position: absolute;
+  left: 0;
+  top: 26px;
+  z-index: 3;
+  background-color: #EC1F46;
+  border-radius: 0px 4px 4px 0px;
+  padding: 4px 9px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+}
+
+.little-card__info-block {
+  width: 350px;
+  min-height: 250px;
+  color: #ffffff;
+  padding: 30px 21px 25px 32px;
+  background-color: #0A223D;
+  color: #ffffff;
+  border-radius: 0 0 8px 8px;
+}
+
+.little-card__title {
+  margin: 0 0 23px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.package-room__old-little {
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: line-through;
+}
+
+.package-room__revalent-little {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.package-room__new-little {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.package-room__button-little {
+  padding: 11px 27px;
+  background-color: #EC1F46;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
 .newsletter {
   position: relative;
   padding: 98px 0 87px;
