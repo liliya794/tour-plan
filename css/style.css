@@ -1393,6 +1393,7 @@ template {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
+  margin-bottom: 95px;
 }
 
 .footer__logo {
@@ -1559,6 +1560,33 @@ template {
   color: #E0E0E0;
 }
 
+.footer-extra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer-extra__disclaimer {
+  -ms-flex-preferred-size: 58%;
+      flex-basis: 58%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer-extra__text {
+  margin-right: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -1695,6 +1723,18 @@ template {
   .footer__input {
     -ms-flex-preferred-size: 49%;
         flex-basis: 49%;
+  }
+  .footer-extra {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer-extra__disclaimer {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
   }
 }
 
@@ -1857,9 +1897,13 @@ template {
   .card {
     width: 80%;
   }
+  .footer {
+    padding: 108px 0 21px 0;
+  }
   .footer-wrapper {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    margin-bottom: 30px;
   }
   .footer__logo {
     -ms-grid-row: 1;
@@ -1916,6 +1960,19 @@ template {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     margin-bottom: 15px;
+  }
+  .footer-extra {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-extra__disclaimer {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
   }
 }
 
