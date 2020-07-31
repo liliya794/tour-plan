@@ -1380,6 +1380,7 @@ template {
 }
 
 .footer {
+  padding-top: 108px;
   background-color: #0A223D;
   color: #ffffff;
 }
