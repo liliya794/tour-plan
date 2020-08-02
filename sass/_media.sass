@@ -101,6 +101,9 @@
       &__disclaimer
         flex-basis: auto
         align-items: stretch
+  .modal
+    &__dialog
+      padding: 33px 50px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -293,7 +296,11 @@
       &__disclaimer
         flex-basis: auto
         align-items: stretch
- 
+  .modal
+    &__dialog
+      min-width: 80%
+    &__button
+      order: 1
 @media ( max-width: 480px )
   .newsletter
     &-title
@@ -315,6 +322,12 @@
         margin-right: 50px
     &__form
       width: 80%
+  .modal
+    &__dialog
+      padding: 20px 30px
+      max-height: 98%
+      min-width: 95%
+
   
   
 
