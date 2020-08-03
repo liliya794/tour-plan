@@ -87,4 +87,23 @@ $(document).ready(function () {
     },
     false
   );
+  // обработка форм
+  $(".form").each(function () {
+    $(this).validate({
+      errorClass: "invalid",
+      messages: {
+        name: {
+          required: "Name field is required",
+          minlenght: "Name at least 2 characters",
+        },
+        email: {
+          required: "Field esmail is required",
+          email: "Your email address must be in the format of name@domain.com",
+        },
+        phone: {
+          required: "Phone number field is required",
+        },
+      },
+    });
+  });
 });
