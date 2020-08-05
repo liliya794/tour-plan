@@ -349,23 +349,45 @@
       padding: 20px 30px
       max-height: 98%
       min-width: 95%
-@media all and (orientation: landscape), all and (min-width: 635px)
+@media (max-width: 768px) and (orientation: landscape)
   .navbar
     &-menu
-      // padding: 0
-      // flex-wrap: wrap
-      // justify-content: start
-      // height: 250px
+      padding: 0
+      flex-wrap: wrap
+      justify-content: start
+      height: 250px
       &__item
-        // margin-bottom: 15px
+        margin-bottom: 10px
     &__user
       &--mobile
         &--visible
-          // align-items: start
+          align-items: start
     &__search
       &--mobile
         &--visible
-          // margin-bottom: 80px
+          margin-bottom: 80px
+  .modal
+    &__dialog
+      align-items: s
+      padding: 20px 20px
+      max-height: 90%
+      min-width: 90%
+    &__form
+      flex-wrap: wrap
+      text-align: start
+    &__input
+      &-group
+        width: 31%
+        margin-right: 10px
+    &__message
+      min-height: 50px
+      max-width: 522px
+    &__info
+      padding-right: 15px
+      padding-top: 10px
+
+    
+
 
 
   
