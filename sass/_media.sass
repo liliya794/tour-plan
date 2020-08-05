@@ -22,6 +22,8 @@
     max-width: 700px
   .logo
     width: 132px
+  .logo-height
+    height: auto
   .navbar
     &-top
       padding-top: 30px
@@ -112,6 +114,7 @@
     width: 92%
   body
     padding-top: 78px
+
   .navbar
     &--mobile
       &--fixed
@@ -306,9 +309,18 @@
     &__button
       order: 1
 @media ( max-width: 480px )
+  .container
+    max-width: 88%
   .search
     &__input      
       max-width: 250px
+  .hotel
+    &-slider
+      height: 179px
+    &-right
+      
+  .booking
+    height: 210px
   .newsletter
     &-title
       font-weight: 300
@@ -324,19 +336,36 @@
     width: 100%
   .footer
     padding: 50px 0 46px 0
+    &__legal
+      margin-left: 0
     &__contact
       &-details
-        margin-right: 50px
     &__form
-      width: 80%
+      width: 100%
+  .logo-height
+    height: 120px
   .modal
     &__dialog
       padding: 20px 30px
       max-height: 98%
       min-width: 95%
-
-  
-  
+@media all and (orientation: landscape), all and (min-width: 635px)
+  .navbar
+    &-menu
+      // padding: 0
+      // flex-wrap: wrap
+      // justify-content: start
+      // height: 250px
+      &__item
+        // margin-bottom: 15px
+    &__user
+      &--mobile
+        &--visible
+          // align-items: start
+    &__search
+      &--mobile
+        &--visible
+          // margin-bottom: 80px
 
 
   

@@ -21,7 +21,8 @@
     cursor: pointer
   &__categories
     grid-row: 1 / 4
-    
+  &__legal
+    margin-left: 70px
   &__social
     &-links
       display: flex
@@ -41,7 +42,6 @@
       grid-column: span 2
   &__form
     display: flex
-    align-items: center
     justify-content: space-between
     flex-wrap: wrap
   &__ul
@@ -84,29 +84,44 @@
   &__text
     color: $footer-text-color
     margin-bottom: 22px
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 160%
   &__link
     text-decoration: none
     color: inherit
   &__input
     width: 100%
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+    color: #BDBDBD
     &-group
       margin-bottom: 15px
       flex-basis: 48%
   &__message
     flex-basis: 100%
     margin-bottom: 23px
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+    color: #BDBDBD
   &__info
     font-style: normal
     font-weight: bold
     font-size: 12px
     line-height: 15px
     color: #E0E0E0
+    padding-top: 18px
 
   &-extra
     display: flex
     justify-content: flex-end
     &__disclaimer
-      flex-basis: 58%
+      flex-basis: 51%
       align-items: center
       font-style: normal
       font-weight: normal
