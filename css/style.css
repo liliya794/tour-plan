@@ -18,6 +18,11 @@ img {
   max-width: 100%;
 }
 
+.iframe {
+  border-width: none;
+  width: 100%;
+}
+
 .input {
   background-color: #fff;
   border-radius: 4px;
@@ -491,6 +496,7 @@ template {
   height: 100%;
   border: none;
   background: #EC1F46;
+  cursor: pointer;
 }
 
 .user {
@@ -617,7 +623,7 @@ template {
           justify-content: space-between;
 }
 
-.hotel__slider {
+.hotel-grid__slider {
   margin: 0;
 }
 
@@ -926,6 +932,7 @@ template {
   border: none;
   background-color: #EC1F46;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .parallax-window {
@@ -1192,6 +1199,7 @@ template {
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
+  cursor: pointer;
 }
 
 .footer__categories {
@@ -1286,6 +1294,13 @@ template {
 
 .footer__item--mb-2 {
   margin-bottom: 20px;
+}
+
+.footer__phone-link {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: inherit;
 }
 
 .footer__icon-wrapper {
@@ -1503,7 +1518,7 @@ template {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .hotel__slider {
+  .hotel-grid__slider {
     margin-bottom: 30px;
   }
   .hotel-right {
@@ -1793,7 +1808,7 @@ template {
   .logo {
     width: 99px;
   }
-  .hotel__slider {
+  .hotel-grid__slider {
     margin-bottom: 20px;
   }
   .hotel-slider {

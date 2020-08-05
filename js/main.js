@@ -94,7 +94,6 @@ $(document).ready(function () {
       messages: {
         name: {
           required: "Name field is required",
-          minlenght: "Name at least 2 characters",
         },
         email: {
           required: "Field esmail is required",
