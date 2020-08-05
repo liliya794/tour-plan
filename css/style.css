@@ -1297,9 +1297,12 @@ template {
 }
 
 .footer__phone-link {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer__mail-link {
+  text-decoration: none;
   color: inherit;
 }
 
