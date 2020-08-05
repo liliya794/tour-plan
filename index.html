@@ -305,14 +305,16 @@
           >
         </h2>
         <form
-          action="#"
-          class="subscribe newsletter__subscribe"
-          data-aos="zoom-in"
+          action="send-newsletter.php"
+          method="POST"
+          class="subscribe newsletter__subscribe form"
         >
           <input
-            type="text"
-            class="subscribe__input"
+            type="email"
+            class="input subscribe__input"
             placeholder="Your email address"
+            name="email"
+            required
           />
           <button class="subscribe__button">
             Send
