@@ -48,10 +48,6 @@ $(document).ready(function () {
     },
   });
 
-  $(".parallax-window").parallax({
-    imageSrc: "./img/newsletter.jpg",
-    speed: 0.6,
-  });
   var modalButton = $("[data-toggle=modal]");
   var closeModalButton = $(".modal__close");
   modalButton.on("click", openModal);
