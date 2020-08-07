@@ -1,7 +1,6 @@
 $(document).ready(function () {
   let menuButton = document.querySelector(".menu-button");
   menuButton.addEventListener("click", function () {
-    console.log("Клик по кнопке");
     document
       .querySelector(".navbar-bottom")
       .classList.toggle("navbar-bottom--visible");
